@@ -9,4 +9,13 @@ public class Produkt {
         this.price = price;
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return
+                name + ", price=" + price +
+                ", id=" + id +
+                ", amount=" + amount;
+    }
 }
+
